@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # Khai báo các biến môi trường cho profiles.yml
       DBT_PROFILES_DIR: ./
       DBT_SNOWFLAKE_ACCOUNT: ${{ secrets.DBT_SNOWFLAKE_ACCOUNT }}
       DBT_SNOWFLAKE_USER: ${{ secrets.DBT_SNOWFLAKE_USER }}
